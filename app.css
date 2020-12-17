@@ -36,6 +36,9 @@ display: none;
 a, button {
     cursor: pointer;
 }
+svg{
+    color: #fff;
+}
 nav a:hover {
    color: blue;
    text-decoration: underline;
