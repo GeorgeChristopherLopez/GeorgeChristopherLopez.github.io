@@ -47,6 +47,9 @@ nav a:hover {
   padding: 2em;
   text-align: left;
 }
+#projects .pic{
+    text-align: center;
+}
 
 hr {
   width: 100%;
@@ -167,6 +170,20 @@ li{
   background-color: #fff;
   padding: 0 1em;
 }
+
+.links .alt-link{
+    border: 3px solid #fff;
+    color: #008FDC;
+    background-color: #fff;
+    padding: 0 1em;
+  }
+  .links .alt-link:hover{
+ 
+
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 0 1em;
+  }
 button
 {
     background-color: #bbd7ec;
@@ -311,11 +328,16 @@ footer a{
 @media only screen and (min-width:600px){
     #project-container{
         grid-template-columns: 1fr 1fr;
-    }
+       }
      .pic{
       display: grid;
       align-content: center;
       justify-content: center;
+    
+     
+    }
+    #projects .pic{
+        text-align: left;
     }
     .desktop {
       display: grid;
@@ -326,7 +348,8 @@ footer a{
       .projects {
         
         grid-template-columns: 1fr 1fr;
-       
+        grid-gap: 2rem;
+        margin: 3em;
       }
     #about{
         display: grid;
